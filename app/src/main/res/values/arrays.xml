@@ -1,0 +1,18 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item android:defaultValue="true">Swedish Krona</item>
+        <item>Danish Krone</item>
+        <item>Norwegian Krone</item>
+        <item>British Pound</item>
+        <item>United States Dollar</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item android:defaultValue="true">SEK</item>
+        <item>DKK</item>
+        <item>NOK</item>
+        <item>GBP</item>
+        <item>USD</item>
+    </string-array>
+</resources>

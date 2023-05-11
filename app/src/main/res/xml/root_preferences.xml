@@ -1,0 +1,33 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditTextPreference
+        android:defaultValue="10"
+        app:key="sma1"
+        app:title="First sma value"
+        app:useSimpleSummaryProvider="true" />
+    <EditTextPreference
+        android:defaultValue="20"
+        app:key="sma2"
+        app:title="Secund sma value"
+        app:useSimpleSummaryProvider="true" />
+    <EditTextPreference
+        android:defaultValue="2022-01-01"
+        app:key="datefrom"
+        app:title="Start date"
+        app:useSimpleSummaryProvider="true" />
+    <EditTextPreference
+        android:defaultValue="2022-04-01"
+        app:key="dateto"
+        app:title="End date"
+        app:useSimpleSummaryProvider="true" />
+    <ListPreference
+        app:defaultValue="reply"
+        app:entries="@array/reply_entries"
+        app:entryValues="@array/reply_values"
+        app:key="reply"
+        app:title="@string/reply_title"
+        app:useSimpleSummaryProvider="true" />
+
+
+</PreferenceScreen>
